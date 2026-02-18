@@ -68,8 +68,21 @@ body {
   max-width: 420px;
 }
 
+.subheader .logo {
+  display: inline-block;
+  height: 0.9em;
+  width: auto;
+  vertical-align: text-bottom;
+  margin-right: 0;
+  transform: translateY(-0.12em);
+}
+
 .subheader .brand {
   color: #ffffff;
+}
+
+.subheader .brand-dot {
+  color: var(--muted);
 }
 
 .app-store {
