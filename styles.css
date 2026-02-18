@@ -5,6 +5,7 @@
   --text: #f5f5f4;
   --muted: #a3a3a3;
   --muted-strong: #8a8a8a;
+  --link-muted: #6f6f6f;
   --accent: #7dd3fc;
   --accent-strong: #38bdf8;
   --glow: rgba(56, 189, 248, 0.35);
@@ -78,7 +79,7 @@ body {
 }
 
 .subheader .brand {
-  color: #ffffff;
+  color: var(--text);
 }
 
 .subheader .brand-dot {
@@ -135,11 +136,10 @@ body {
 }
 
 .legal a {
-  color: #6f6f6f;
+  color: var(--link-muted);
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
-  transition: color 0.2s ease;
 }
 
 .legal a:hover,
