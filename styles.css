@@ -12,6 +12,14 @@
   --ring: rgba(148, 163, 184, 0.3);
 }
 
+@font-face {
+  font-family: "Mamenchisa";
+  src: url("assets/fonts/Mamenchisa.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -93,6 +101,7 @@ body {
 
 .subheader .brand {
   color: var(--text);
+  font-family: "Mamenchisa", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 .subheader .brand-dot {
@@ -135,9 +144,9 @@ body {
 }
 
 .hero-visual img {
-  width: min(1200px, 100%);
+  width: min(3600px, 300%);
   height: auto;
-  max-height: calc(100vh - 40px);
+  max-height: none;
   filter: drop-shadow(0 40px 80px rgba(8, 10, 20, 0.65));
 }
 
